@@ -1,0 +1,467 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    
+}
+/* Estilos de botones */
+.button{
+    width: 200px; height: 40px;
+    background:linear-gradient(137deg,#22efcb 15.51%,#2980ff 51.65%,#a125ff 85.09%) ;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    font-size: 1em;
+
+}
+
+.button:hover{
+    background: black;
+}
+.iniciar_sesion{
+    width: 150px; height: 40px;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 2px solid rgb(0, 132, 255);
+    color:  rgb(0, 132, 255);
+    background-color: white;
+}
+.iniciar_sesion:hover{
+    border: 2px solid rgb(8, 79, 145);
+    color: rgb(8, 79, 145);
+}
+.menu{
+    height: 70px;
+    width: 100px;
+    background-color: white;
+    border:0px; 
+}
+.container_inputs {
+    position: relative;
+}
+
+.button2 {
+    position: absolute;
+    top:27px;
+    right: 27px;
+    border-radius: 100% ;
+    border:none;
+    background-color: rgba(224, 63, 63, 0.904);
+    width: 40px; height: 40px;
+    font-size: 1.5em;
+    color: azure;
+}
+
+
+.registrarse{
+    width: 150px; height: 40px;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 2px solid rgb(0, 132, 255);
+    color: white;
+    background-color: rgb(0, 132, 255);
+}
+.registrarse:hover{
+    border: 2px solid rgb(8, 79, 145);  
+    background-color: rgb(8, 79, 145)
+}
+
+/* Estilos de titulos */
+h1{
+    font-family:Deezer,sans-serif;
+    font-size: 4.5em;
+    font-weight: 700;
+    margin: 0%;
+    
+    
+}
+h2{ 
+    font-family: Deezer,sans-serif;
+    font-size: 2.5em;
+    font-weight: 700; 
+    margin: 0%;
+}
+h3{
+    font-family: Deezer,sans-serif;
+    font-size: 1em;
+    font-weight: bold; 
+    margin: 0%;
+    
+}
+p{
+    color: grey;
+    font-family: Deezer,sans-serif;
+}
+
+/* Estilos de links */
+a{ text-decoration: none;
+    color: rgba(27, 26, 26, 0.849);
+    font-family: Deezer,sans-serif;
+
+}
+
+
+
+/* Estilo encabezado */
+header{
+    background-color: rgb(255,255,255);
+    margin: 0%;
+    padding: 0%;
+    height: 80px;
+}
+header .container{
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content:space-between;
+    margin: 0px 110px;
+    
+}
+header .container img{
+    font-family: Open sans, Arial, sans-serif;
+    width: 150px;
+    height: 40px;}
+
+header nav{
+    margin:0;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Estilos de secciones */
+#hero{
+    margin: 0%;
+    display: flex;
+    flex-flow: column;
+    padding: 0px 0px 30px 0px;
+    background:linear-gradient(137deg,#22efcb 15.51%,#2980ff 51.65%,#a125ff 85.09%);
+    align-items:center; 
+    /* justify-content:center; */
+    color: white;
+    text-align: center;
+    list-style-position:initial ;
+}
+.tipo{
+    height: 50px; width: 240px;
+    background-color: rgb(255, 248, 239);
+    margin-top: 30px; margin-bottom: 30px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.tipo div{
+    
+    width: 100px; height: 35px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Deezer,sans-serif;}
+form{
+    padding: 20px;
+}
+#femail{
+    display: flex;
+    width: 400px; height: 50px;
+    border-radius: 30px;
+    flex-flow:column;
+    padding-left: 30px;
+    border: none;
+    
+}
+#deezer_premium .container{
+    padding: 70px;
+    text-align: center;
+
+}
+#deezer_premium .cartas{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+#deezer_premium .caracteristics{
+margin:50px;
+text-align: justify;
+
+}
+.caracteristics p{
+    color: grey;
+}
+.anuncios{
+    text-align: center;
+}
+.anuncios p {
+    text-align: center;
+    color: grey;
+    font-size: 1.2em;
+}
+#two .container{
+    padding-top: 200px;
+    display: flex; 
+}
+#two .sin_conexion{
+    width: 50%;
+    padding:200px 200px 100px 100px;
+    text-align: left;
+}
+
+
+.sin_conexion p{ color: grey; font-size: 1,5em; text-align: justify;}
+#two .img2_container{
+    margin-left: 150px;
+    
+}
+.img2_container img{
+    width: 450px;
+    height: 700px;
+}
+
+/* Estilos seccion tres (three) */
+#three{
+    margin-top: 200px;
+}
+#three .musical{
+    text-align: center;
+    margin-bottom: 40px;
+}
+#three .chill{
+    width: 150px; height: 150px;
+    background-color: #22efcb;
+    border-radius: 10%;
+    margin: 20px;
+    padding-left: 5px;
+    padding-top: 0px;
+}
+#three .flow{
+    width: 400x; height: 400px;
+    background-color: #a125ff;
+    border-radius: 5%;
+    margin: 20px;
+    padding-left: 20px;
+    color: beige;
+}
+
+#three .cuadros{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+#three .columnas:first-child{
+    display: flex;
+    flex-flow: column;
+    justify-self: right;
+    color: beige;
+    
+}
+#three .columnas:last-child{
+    display: flex;
+    flex-flow: column;
+    justify-self: left;
+    color: beige;
+    
+}
+#three p{
+    margin: 0;
+    text-align: center;
+}
+#three h4{
+    margin: 10px;
+    font-size: 1em;
+}
+
+/* Estilos seccion 4 */
+
+#four{
+    margin:100px;
+}
+#four .favorite{
+    text-align: center;
+}
+#four .podcast{
+    padding: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#four .cads{
+    text-align: center;
+    color: gray;
+    font-size: 1.2em;
+}
+.cads img{
+    border-radius: 10px;
+}
+.cads img:hover{
+    opacity: .6;
+}
+
+/* Estilos seccion cinco (five) */
+
+#five .never{
+    text-align: center;
+    margin-bottom: 100px;
+}
+#five .img3container{
+    margin-bottom: 150px;
+}
+
+/* Estilos seccion seis (six) */
+#six .container{
+    display: flex;
+}
+#six .letra{
+    padding-top: 150px;
+    width: 50%;
+    text-align: right;
+
+}
+#six .img4container img{
+    padding-left: 100px;
+    width: 400px;
+    height: 650px;
+}
+
+/* Estilos seccion 7 (seven) */
+#seven .sincro{
+    text-align: center;
+    margin-top: 100px;
+}
+#seven .info{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+#seven .info p{
+    width:200px ;
+    margin: 20px;
+    
+}
+.button3{
+    width: 350px; height: 50px;
+    background:linear-gradient(137deg,#22efcb 15.51%,#2980ff 51.65%,#a125ff 85.09%) ;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    font-size: 1em;
+
+}
+
+#seven .button3:hover{
+    background: black;
+}
+#seven .dispositivos{
+    margin-top: 40px;
+    padding: 140px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#seven .target{
+    text-align:center;
+    padding: 0%;
+    color: gray;
+    font-size: 1.5em;
+}
+#seven .disp{
+    width: 250px; height: 250px;
+    margin: 20px;
+    padding: auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px  rgb(160, 156, 156);
+    
+}
+#seven .disp img:hover{
+    opacity: .6;
+}
+
+/* Estilos Seccion ocho (eigth) */
+#eigth{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+#eigth .fag{
+    text-align: center;
+}
+#eigth .question{
+    width: 1000px;
+
+}
+#eigth summary{
+    list-style: none;
+    cursor:pointer;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Estilos seccion nueve (nine) */
+
+#nine p {
+width: 900px;
+margin-left: 200px;
+text-align: left;
+font-size: 0.9em;
+padding: 50px;
+}
+
+/* Estilos seccion diez (ten) */
+#ten {
+    background-color: black;
+    color: rgb(236, 227, 227);
+}
+#ten .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 50px;
+}
+#ten .listas ul{
+    list-style: none;
+    text-align: left;
+    padding-bottom: 10px;
+    font-family: Deezer,sans-serif;
+    
+    
+}
+#ten .container a{
+    color: rgb(236, 227, 227);
+    margin-bottom: 10px;
+    font-family:  Deezer,sans-serif;;
+    
+}
+#ten .container li{
+    margin-top: 10px;
+
+}
+#ten .descargas{
+    display: flex;
+    justify-content: center;
+}
+#ten .descargas .container{
+    width: 200px; height: 50px;
+}
+#ten .descargas .google{
+    width: 500%;
+    
+}
+#ten .descargas .app{
+    width: 450%;
+}
+
+
+
